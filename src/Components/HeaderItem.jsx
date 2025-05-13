@@ -10,3 +10,6 @@ function HeaderItem({ name, icon: Icon }) {
 }
 
 export default HeaderItem;
+
+//name bir string olduğu için direkt {name} şeklinde yazılabilir.
+//icon bir component olduğu için icon: Icon şeklinde destructure edilip <Icon /> şeklinde kullanılabilir.

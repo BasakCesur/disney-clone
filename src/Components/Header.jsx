@@ -26,7 +26,7 @@ function Header() {
         <img src={logo} className="w-[150px] md:w-[115px] object-cover" />
         <div className="hidden md:flex gap-8">
           {menu.map((item) => {
-            return <HeaderItem name={item.name} icon={item.icon} />;
+            return <HeaderItem name={item.name} icon={item.icon} />; // Map fonksyionu her çalışığında <HeaderItem name="HOME" icon={HiHome} /> vb. döner
           })}
         </div>
         <div className="flex md:hidden gap-5">
