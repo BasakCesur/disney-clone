@@ -3,7 +3,7 @@ import GlobalApi from "../Services/GlobalApi";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import { useRef } from "react";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
-const screenWidth = window.innerWidth;
+const screenWidth = window.innerWidth; // tarayıcı penceresinin iç kısım genişliği
 
 function Slider() {
   const [moviesList, setMoviesList] = useState([]);
